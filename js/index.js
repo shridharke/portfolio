@@ -21,7 +21,7 @@ const sections = document.querySelectorAll("section[id]");
 
 window.addEventListener("scroll", scrollActive);
 
-const scrollActive = () => {
+function scrollActive() {
     const scrollY = window.pageYOffset;
 
     sections.forEach((current) => {
@@ -31,11 +31,11 @@ const scrollActive = () => {
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document
                 .querySelector(".nav-menu a[href*=" + sectionId + "]")
-                .classList.add(" active");
+                .classList.add("active");
         } else {
             document
                 .querySelector(".nav-menu a[href*=" + sectionId + "]")
-                .classList.remove(" active");
+                .classList.remove("active");
         }
     });
 };

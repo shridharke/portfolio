@@ -22,26 +22,42 @@
                 <div class="nav-close" id="nav-close">
                     <i class="bx bx-x"></i>
                 </div>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#education" class="nav-link">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#works" class="nav-link">Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+                <div class="nav-content">
+                    <div class="nav-perfil">
+                        <div class="nav-img">
+                            <img src="img/cropped.jpeg" alt="">
+                        </div>
+                        <div>
+                            <a href="#" class="nav-name">Shridhar</a>
+                            <span class="nav-profession">Full Stack Developer</span>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#works" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav-social">
+                        <a href="#" class="nav-social-icon"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#" class="nav-social-icon"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="nav-social-icon"><i class="bx bxl-dribbble"></i></a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -55,7 +71,7 @@
                     <h2 class="home-subtitle1">Hi! My name is</h2>
                     <h1 class="home-title">Shridhar.</h1>
                     <h2 class="home-subtitle2">
-                        I'm a Full-Stack Developer
+                        I'm a Full-Stack Developer.
                     </h2>
                     <!-- <span class="home-profession"
                             >Full Stack Developer</span
@@ -74,7 +90,25 @@
             <span class="section-subtitle">My Intro</span>
             <h2 class="section-title">About Me</h2>
             <div class="about-container bd-grid">
-                <div class="about-data">
+
+                <div class="about--img">
+                    <img src="img/cropped.jpeg" alt="">
+                </div>
+
+                <div class="about--content">
+                    <p class="about--text">
+                        Hi, I'm a Full-Stack Developer, passionate about
+                        creating and developing Applications. I love to learn new technologies and flex my creativity to
+                        create amazing things.
+                    </p>
+                    <div class="about--social">
+                        <a href="#" class="about--social-icon"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#" class="about--social-icon"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="about--social-icon"><i class="bx bxl-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <!-- <div class="about-data">
                     <p class="about-description">
                         Hi, I'm a Full-Stack Developer, passionate about
                         creating and developing web interfaces. I have many
@@ -133,9 +167,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
+
         <section class="skills section" id="skills">
             <span class="section-subtitle">Skills</span>
             <h2 class="section-title">My Expertise Area</h2>
@@ -282,6 +317,46 @@
                         <a href="#" class="works-link-item">Watch Presentation</a>
                     </div>
                 </div>
+
+                <div class="works-img">
+                    <img src="img/covid.png" alt="" />
+                </div>
+
+                <div class="works-content">
+                    <h2 class="works-subtitle">COVID-19 Tracker</h2>
+                    <span class="works-stack">React | API Fetch | Chart js</span>
+                    <p class="works-description">
+                        Created a website for tracking the number of cases of corona virus in Every Country in the
+                        World. The data is fetched from an API and is updated in realtime. Interactive Charts provided
+                        the spread of disease for the last 120 days.
+                    </p>
+
+                    <div class="works-links">
+                        <a href="#" class="works-link-item">Try Demo</a>
+                        <a href="#" class="works-link-item">View Code</a>
+                        <a href="#" class="works-link-item">Watch Presentation</a>
+                    </div>
+                </div>
+
+                <div class="works-img">
+                    <img src="img/tetris.png" alt="" />
+                </div>
+
+                <div class="works-content">
+                    <h2 class="works-subtitle">Tetris</h2>
+                    <span class="works-stack">React | Hooks</span>
+                    <p class="works-description">
+                        Created a Tetris Game with React js with all the features of a traditional Tetris Game. Learnt a
+                        lot about the Arrays and Array methods in JavaScript. Was really Fun developing this Game.
+                    </p>
+
+                    <div class="works-links">
+                        <a href="#" class="works-link-item">Try Demo</a>
+                        <a href="#" class="works-link-item">View Code</a>
+                        <a href="#" class="works-link-item">Watch Presentation</a>
+                    </div>
+                </div>
+
             </div>
         </section>
         <section class="contact section" id="contact">
@@ -329,7 +404,7 @@
             </div>
 
             <p class="footer-copy">
-                All rights reserved by Shridhar - 2020
+                © 2020 Shridhar - All Rights Reserved
             </p>
         </div>
     </footer>
