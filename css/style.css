@@ -121,6 +121,19 @@ img {
     margin-right: var(--mb-2);
 }
 
+#particles-js {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 0;
+}
+
 .l-header {
     width: 100%;
     position: fixed;
@@ -759,17 +772,4 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-#particles-js {
-    position: absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    /* background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%; */
-    z-index: 0;
 }
